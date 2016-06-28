@@ -19,3 +19,15 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+collections:
+  business-finance:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "Business Finance"
+    values:
+      layout: "business-finance"
