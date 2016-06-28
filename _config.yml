@@ -25,9 +25,9 @@ defaults:
       type: "Merchant Services"
     values:
       layout: "merchant-services"
-  -
-    scope:
-      path: ""
-      type: "Business Insurance"
-    values:
-      layout: "business-insurance"      
+#   -
+#     scope:
+#       path: ""
+#       type: "Business Insurance"
+#     values:
+#       layout: "business-insurance"      
