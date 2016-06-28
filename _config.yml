@@ -17,10 +17,17 @@ collections:
     output: true
   business-insurance:
     output: true
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "Business Finance"
-#     values:
-#       layout: "business-finance"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "Business Finance"
+    values:
+      layout: "business-finance"
+  -
+    scope:
+      path: ""
+      type: "Business Insurance"
+    values:
+      layout: "business-insurance"      
