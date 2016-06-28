@@ -13,7 +13,7 @@ permalink: pretty
 markdown: kramdown
 
 collections:
-  business-finance:
+  merchant-services:
     output: true
   business-insurance:
     output: true
@@ -22,9 +22,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "Business Finance"
+      type: "Merchant Services"
     values:
-      layout: "business-finance"
+      layout: "merchant-services"
   -
     scope:
       path: ""
