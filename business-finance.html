@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<ul class="business-finance">
+  {% for category in site.business-finance %}
+    <li class="business-finance">
+      <p>
+        <a href="{{ category.url }}">
+          {{ category.name }} {{ category.url }}
+        </a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
