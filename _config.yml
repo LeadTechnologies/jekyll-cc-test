@@ -13,18 +13,16 @@ permalink: pretty
 markdown: kramdown
 
 collections:
-  merchant-services:
-    output: true
-  business-insurance:
+  staff:
     output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: "Merchant Services"
+      type: "staff"
     values:
-      layout: "merchant-services"
+      layout: "staff-member"
 #   -
 #     scope:
 #       path: ""
